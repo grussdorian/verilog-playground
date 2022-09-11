@@ -1,0 +1,49 @@
+$date
+	Tue Aug 16 01:32:42 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module latchtest $end
+$scope module LAT $end
+$var wire 1 ! R $end
+$upscope $end
+$upscope $end
+$scope module latchtest $end
+$scope module LAT $end
+$var wire 1 " En $end
+$upscope $end
+$upscope $end
+$scope module latchtest $end
+$scope module LAT $end
+$var reg 1 # Q $end
+$upscope $end
+$upscope $end
+$scope module latchtest $end
+$scope module LAT $end
+$var wire 1 $ S $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0$
+x#
+z"
+1!
+$end
+#5
+1$
+#10
+0!
+#15
+1!
+#20
+0!
+0$
+#25
+1!
+1$

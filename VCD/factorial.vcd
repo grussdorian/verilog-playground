@@ -1,0 +1,354 @@
+$date
+	Mon Sep 12 03:21:15 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_factorial $end
+$var wire 8 ! Nw [7:0] $end
+$var wire 2 " state [1:0] $end
+$var wire 1 # Stop $end
+$var wire 17 $ Rw [16:0] $end
+$var wire 1 % LdR $end
+$var wire 1 & LdN $end
+$var wire 1 ' DecN $end
+$var wire 1 ( Clr $end
+$var wire 1 ) CN $end
+$var reg 1 * Clk $end
+$var reg 8 + D_in [7:0] $end
+$var reg 1 , Start $end
+$scope module CP $end
+$var wire 1 * Clk $end
+$var wire 1 , Start $end
+$var wire 1 ) CN $end
+$var reg 1 ( Clr $end
+$var reg 1 ' DecN $end
+$var reg 1 & LdN $end
+$var reg 1 % LdR $end
+$var reg 1 # Stop $end
+$var reg 2 - state [1:0] $end
+$upscope $end
+$scope module DP $end
+$var wire 1 * Clk $end
+$var wire 1 ( Clr $end
+$var wire 8 . D_in [7:0] $end
+$var wire 1 ' DecN $end
+$var wire 1 & LdN $end
+$var wire 1 % LdR $end
+$var wire 16 / mul_out [15:0] $end
+$var wire 8 0 d [7:0] $end
+$var wire 16 1 Rw [15:0] $end
+$var wire 8 2 Nw [7:0] $end
+$var wire 1 ) CN $end
+$scope module c $end
+$var wire 8 3 N [7:0] $end
+$var wire 1 ) CN $end
+$upscope $end
+$scope module m $end
+$var wire 16 4 R [15:0] $end
+$var wire 8 5 N [7:0] $end
+$var reg 16 6 mul_out [15:0] $end
+$upscope $end
+$scope module reg_N $end
+$var wire 1 * Clk $end
+$var wire 1 ( Clr $end
+$var wire 1 ' DecN $end
+$var wire 1 & LdN $end
+$var wire 8 7 N [7:0] $end
+$var reg 8 8 Nw [7:0] $end
+$upscope $end
+$scope module reg_R $end
+$var wire 1 * Clk $end
+$var wire 1 ( Clr $end
+$var wire 1 % LdR $end
+$var wire 16 9 R [15:0] $end
+$var reg 16 : Rw [15:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx :
+bx 9
+bx 8
+bx 7
+bx 6
+bx 5
+bx 4
+bx 3
+bx 2
+bx 1
+bx 0
+bx /
+bx .
+bx -
+x,
+bx +
+0*
+x)
+x(
+x'
+x&
+x%
+b0xxxxxxxxxxxxxxxx $
+x#
+bx "
+bx !
+$end
+#3
+1,
+#5
+b0 "
+b0 -
+b1001 0
+b1001 7
+b1000 +
+b1000 .
+1*
+#6
+0#
+0'
+1(
+0%
+0&
+#10
+1)
+b0 /
+b0 6
+b0 9
+b0 !
+b0 2
+b0 3
+b0 5
+b0 8
+b1 $
+b1 1
+b1 4
+b1 :
+0*
+#15
+b1 "
+b1 -
+1*
+#16
+0(
+1&
+#20
+0*
+#25
+0)
+b1001 /
+b1001 6
+b1001 9
+b1001 !
+b1001 2
+b1001 3
+b1001 5
+b1001 8
+b10 "
+b10 -
+1*
+#26
+1'
+1%
+0&
+#30
+b1000 /
+b1000 6
+b1000 9
+b1000 !
+b1000 2
+b1000 3
+b1000 5
+b1000 8
+0*
+#35
+b1000000 /
+b1000000 6
+b1000000 9
+b1000 $
+b1000 1
+b1000 4
+b1000 :
+1*
+#40
+b111000 /
+b111000 6
+b111000 9
+b111 !
+b111 2
+b111 3
+b111 5
+b111 8
+0*
+#45
+b110001000 /
+b110001000 6
+b110001000 9
+b111000 $
+b111000 1
+b111000 4
+b111000 :
+1*
+#50
+b101010000 /
+b101010000 6
+b101010000 9
+b110 !
+b110 2
+b110 3
+b110 5
+b110 8
+0*
+#55
+b11111100000 /
+b11111100000 6
+b11111100000 9
+b101010000 $
+b101010000 1
+b101010000 4
+b101010000 :
+1*
+#60
+b11010010000 /
+b11010010000 6
+b11010010000 9
+b101 !
+b101 2
+b101 3
+b101 5
+b101 8
+0*
+#65
+b10000011010000 /
+b10000011010000 6
+b10000011010000 9
+b11010010000 $
+b11010010000 1
+b11010010000 4
+b11010010000 :
+1*
+#70
+b1101001000000 /
+b1101001000000 6
+b1101001000000 9
+b100 !
+b100 2
+b100 3
+b100 5
+b100 8
+0*
+#75
+b110100100000000 /
+b110100100000000 6
+b110100100000000 9
+b1101001000000 $
+b1101001000000 1
+b1101001000000 4
+b1101001000000 :
+1*
+#80
+b100111011000000 /
+b100111011000000 6
+b100111011000000 9
+b11 !
+b11 2
+b11 3
+b11 5
+b11 8
+0*
+#85
+b1110110001000000 /
+b1110110001000000 6
+b1110110001000000 9
+b100111011000000 $
+b100111011000000 1
+b100111011000000 4
+b100111011000000 :
+1*
+#90
+b1001110110000000 /
+b1001110110000000 6
+b1001110110000000 9
+b10 !
+b10 2
+b10 3
+b10 5
+b10 8
+0*
+#95
+b11101100000000 /
+b11101100000000 6
+b11101100000000 9
+b1001110110000000 $
+b1001110110000000 1
+b1001110110000000 4
+b1001110110000000 :
+1*
+#100
+1)
+b1001110110000000 /
+b1001110110000000 6
+b1001110110000000 9
+b1 !
+b1 2
+b1 3
+b1 5
+b1 8
+0*
+#105
+1*
+#107
+b11 "
+b11 -
+#108
+1#
+0'
+0%
+#110
+0*
+#115
+1*
+#120
+0*
+#125
+1*
+#130
+0*
+#135
+1*
+#140
+0*
+#145
+1*
+#150
+0*
+#155
+1*
+#160
+0*
+#165
+1*
+#170
+0*
+#175
+1*
+#180
+0*
+#185
+1*
+#190
+0*
+#195
+1*
+#200
+0*
+#205
+1*
+#210
+0*
+#213

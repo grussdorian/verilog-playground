@@ -1,0 +1,35 @@
+$date
+	Mon Aug 15 22:06:23 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module q1 $end
+$var reg 8 ! b [7:0] $end
+$upscope $end
+$scope module q1 $end
+$var reg 8 " c [7:0] $end
+$upscope $end
+$scope module q1 $end
+$var reg 8 # d [7:0] $end
+$upscope $end
+$scope module q1 $end
+$var reg 8 $ a [7:0] $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx $
+bx #
+bx "
+bx !
+$end
+#5
+b1010 !
+b101 $
+#10
+b1111 "
+b10100 #
